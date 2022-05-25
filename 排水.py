@@ -1,6 +1,3 @@
-import keyword
-
-
 def calc(t, s):
     t = float(t)
     s = float(s)
@@ -13,10 +10,7 @@ def calc(t, s):
 
 if __name__ == "__main__":
     while True:
-        if keyword.iskeyword("27"):
-            break
-        else:
-            t = input("输入t2,单位为分钟")
-            s = input("输入汇水面积")
-            calc(t, s)
+          t = input("输入t2,单位为分钟")
+          s = input("输入汇水面积")
+          calc(t, s)
 
