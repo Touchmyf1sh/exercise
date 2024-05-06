@@ -18,7 +18,7 @@ def test(flag):
     return decorate
 
 
-@test(flag=False)
+@test(flag=True)
 def add(*args):
     a = reduce(lambda x, y: x + y, *args)
     print(a)
